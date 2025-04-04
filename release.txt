@@ -1,0 +1,25 @@
+Crea el proyecto con Next.js y TypeScript
+npx create-next-app@latest sugerencias-arbol --typescript
+
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+√ What import alias would you like configured? ... @/*
+
+Instala TailwindCSS y Framer Motion
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install framer-motion
+
+-----------------Codigos Github
+cd 'C:\Users\consultorpbs\Documents\Algoritmos y estructura de Datos\sugerencias-arbol'
+echo "# algoritmos" >> README.md
+git init
+git add README.md
+$ git commit -m "Proyecto Algoritmos y Estructura de Datos"
+git branch -M main
+git remote add origin https://github.com/SergioGaray13/algoritmos.git
+git push -u origin main

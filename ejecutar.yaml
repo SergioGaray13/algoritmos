@@ -1,0 +1,26 @@
+
+---
+
+## 📌 Funcionalidades
+
+- Visualización de sugerencias en orden alfabético usando un árbol binario
+- Animaciones interactivas con Framer Motion
+- Campo para ingresar nuevas sugerencias en tiempo real
+- Estilizado responsivo con TailwindCSS
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+```bash
+# 1. Ir al directorio del proyecto
+cd "C:\Users\consultorpbs\Documents\Algoritmos y estructura de Datos"
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Ejecutar en modo desarrollo
+npm run dev
+
+# 3. Ejecutar en modo produccion para desplegar en CloudFlare o Vercel
+npm run build
